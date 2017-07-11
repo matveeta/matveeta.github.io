@@ -1,0 +1,56 @@
+﻿<!DOCTYPE HTML>
+<head>
+	<meta charset="utf-8">
+	<title> Шахматка </title>
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src = "ChessBoard.js"></script>
+	<style type="text/css">
+		
+		#main{
+			display: block;
+			margin: 0 auto;
+			width: 420px;
+			
+			
+		}
+		.cell_white, .cell_black, .focus{
+			float: left;
+			width: 50px;
+			height: 50px;
+			border: 1px solid #708090;
+		}
+
+		.cell_black{
+			background-color: #708090;
+			
+		}
+
+		.cell_white{
+			background-color: transparent;
+		}
+
+		.focus{
+			background-color:  red;
+		}
+		input{
+			margin: 10px;
+			
+		}
+
+	</style>
+</head>
+<body>
+<div>
+	<input type="button" name="" value = "add board" id="add_board" onclick="addBoard ()">	
+	<input type="text" name="" placeholder="enter x" id="x">
+	<input type="text" name="" placeholder="enter y" id="y">
+	<input type="button" name="" value="get coordinate" onclick="getСoordinatesСhessboard ()">
+</div>	
+	<div id="main">
+			
+	</div>
+	
+	
+	
+</body>
+</html>
