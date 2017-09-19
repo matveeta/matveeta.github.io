@@ -959,9 +959,9 @@ footer span {
     }
 
     .content {
-        min-height: 77vh;
+        min-height: 85vh;
         height: auto;
-        padding: 5% 0% 8% 0;
+        padding: 5% 0;
     }
 
     .content_info {
@@ -1132,7 +1132,7 @@ footer span {
 
     .features_2 .title p {
         width: auto;
-        padding-left: 5%;
+        padding-left: 9%;
     }
 
     .features_2 .title h5 {
